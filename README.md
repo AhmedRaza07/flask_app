@@ -15,11 +15,9 @@ Do check if its properly installed and then Activate Mongodb Instance using belo
     > db.createCollection('cartItems')
 4. Install following packages like flask and pymongo using pip install 
 5. Once the code is executed using python app.py, run the following request methods to Postman: [GET, POST, PUSH, DELETE]. Please do check below object for a sample JSON object as reuqest to server:
-Sample Request :
+Sample Request:
   
-  {
-            
-            "name": "DDD",
+           {"name": "DDD",
             "description":"ZZZ",
             "quantity":"b",
             "price":"c" }
